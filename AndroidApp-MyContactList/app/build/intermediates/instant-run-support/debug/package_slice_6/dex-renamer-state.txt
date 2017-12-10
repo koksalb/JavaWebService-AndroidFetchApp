@@ -1,0 +1,4 @@
+#Sat Dec 02 14:48:52 CET 2017
+base.0=C\:\\Users\\koksa\\Desktop\\MyContactList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\25
+path.0=classes.dex
+renamed.0=classes.dex

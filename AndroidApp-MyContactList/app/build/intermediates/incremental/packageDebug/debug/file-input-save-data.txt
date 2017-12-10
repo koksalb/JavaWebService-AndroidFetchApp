@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sat Dec 02 14:51:08 CET 2017
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\koksa\\Desktop\\MyContactList\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+0.path=classes.dex
+0.set=DEX
+count=1

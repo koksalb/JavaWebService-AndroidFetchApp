@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="eurecom.fr.mycontactlist.AddContactActivity"
+    tools:showIn="@layout/activity_add_contact">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="90"
+            android:layout_height="match_parent"></LinearLayout>
+        <EditText
+            android:id="@+id/txtname"
+            android:minWidth="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Berkay Koksal"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="90"
+            android:layout_height="match_parent"></LinearLayout>
+        <EditText
+            android:id="@+id/txtphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="056475846572"
+            android:minWidth="100dp"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail:"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="90"
+            android:layout_height="match_parent"></LinearLayout>
+        <EditText
+            android:id="@+id/txtmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="koksal@eurecom.fr"
+            android:minWidth="100dp"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Picture:"
+            android:layout_gravity="center"
+            android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="90"
+            android:layout_height="match_parent"></LinearLayout>
+        <EditText
+            android:id="@+id/txtpict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:text="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png"
+            android:minWidth="100dp"
+            android:textSize="15sp"
+            />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_gravity="center"
+        android:background="@android:drawable/ic_input_add"
+        />
+
+</LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
